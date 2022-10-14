@@ -1,0 +1,229 @@
+.cup{
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+/* */
+.container{
+    background-color:whitesmoke;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    background-color: black;
+}
+.nav{
+    color: whitesmoke;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    height: 50px;
+    width: 800px;
+}
+.body-container{
+    background-color: whitesmoke;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-title{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.nav-links{
+    display:flex;
+    font-family: Arial;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color:grey;
+}
+#profile{
+    color:whitesmoke;
+}
+.btn{
+    color:whitesmoke;
+    background-color: cornflowerblue;
+    border: 5px,10px,10px,5px;
+    border-color: black;
+    margin:10px;
+    font: arial;
+}
+.box-1{
+    width: 500px;
+    height: 550px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-around;
+}
+.background{
+    background-color: dodgerblue;
+    width: 450px;
+    height: 75px;
+}
+.name{
+    background-color: whitesmoke;
+    height: 60px;
+}
+.bio{
+    background-color: whitesmoke;
+    height: 175px;
+}
+.map{
+    background-color: whitesmoke;
+    display:flex;
+    height: 30px
+}
+.box-2{
+    width:450px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px;
+    border-color: gainsboro;
+    background-color: gainsboro;
+    flex-direction: column;
+    padding: 5px;
+}
+img{
+    max-height: 15px;
+    max-width: 15px;
+    border: 0px;
+    display: inline-block;
+    margin: 0px;
+}
+.education{
+    background-color: #333333;
+    color: whitesmoke;
+    height: 50px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 450px;
+
+}
+.content{
+    background-color: whitesmoke;
+    color: #333333;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 450px;
+    height: 110px;
+}
+.box-3{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    height: 160px;
+    width: 450px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 5px;
+}
+.lower-container{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction:column;
+}
+.box-4{
+    background-color:whitesmoke;
+    width: 250px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.connections{
+    background-color: #333333;
+    color:whitesmoke;
+    display: flex;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    align-self: center;
+    justify-self: center;
+    width: 230px;
+}
+.list{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size:smaller;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-names{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: gainsboro;
+}
+.link{
+    background-color:whitesmoke;
+    color: blue;
+}
+.connect{
+    background-color:#333333;
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    height: 40px;
+    display:flex;
+    align-self: center;
+    justify-self: center;
+}
+.requests{
+    background-color: whitesmoke;
+    border-width: 0px,5px,5px,5px;
+    border-style: solid;
+    border-color: gainsboro;
+}
+.box-5{
+    background-color:whitesmoke;
+    width: 230px;
+    height: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.box-6{
+    background-color:whitesmoke;
+    width: 230px;
+    height: 180px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+#edit{
+    cursor: pointer;
+}
+.request-names{
+    display:flex;
+    flex-wrap: wrap;
+}
+#btns{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 80px;
+}

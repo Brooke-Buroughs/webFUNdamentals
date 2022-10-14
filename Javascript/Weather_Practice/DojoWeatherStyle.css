@@ -1,0 +1,417 @@
+.red{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width:1500px;
+    height:1000px;
+    align-items: center;
+}
+.orange-1{
+    width:1500px;
+    height:65px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.orange-2{
+    width:1500px;
+    height:65px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.orange-3{
+    width:1500px;
+    height:450px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.orange-4{
+    width:1500px;
+    height:130px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.orange-1,.orange-2,.orange-3,.orange-4{
+    display:flex;
+}
+.yellow-1-1{
+    width: 300px;
+    height: 65px;
+    display: flex;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yellow-1-2{
+    width: 300px;
+    height: 65px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.green-12-1,.green-12-2,.green-12-3{
+    width: 90px;
+    height: 65px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.green-12-2{
+    margin-left: 5px;
+}
+.yellow-2-1{
+    width: 950px;
+    height:65px;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-between;
+}
+.green-21-1{
+    width: 150px;
+    height: 65px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.green-21-2{
+    width: 180px;
+    height: 65px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue-212-1{
+    color: black;
+    width: 150px;
+}
+.blue-212-2{
+    width:50px;
+    color: black;
+}
+.yellow-3-1{
+    width: 950px;
+    height: 450px;
+    display:flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.green-31-1{
+    width:225px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.blue-311-1{
+    width: 225px;
+    height: 70px;
+    display:flex;
+    justify-content: center;
+    background-color: gainsboro;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blue-311-2{
+    width: 225px;
+    height: 210px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.blue-311-3{
+    width: 225px;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blue-311-4{
+    width: 225px;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+    align-items: center;
+}
+#purple-3114-1{
+    color: red;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+}
+#purple-3114-2{
+    color: darkblue;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.green-31-2{
+    width:225px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.blue-312-1{
+    width: 225px;
+    height: 70px;
+    display:flex;
+    justify-content: center;
+    background-color: gainsboro;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blue-312-2{
+    width: 225px;
+    height: 210px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-312-3{
+    width: 225px;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blue-312-4{
+    width: 225px;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+    align-items: center;
+}
+#purple-3124-1{
+    color: red;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+}
+#purple-3124-2{
+    color: darkblue;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.green-31-3{
+    width:225px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+}
+.blue-313-1{
+    width: 225px;
+    height: 70px;
+    display:flex;
+    justify-content: center;
+    background-color: gainsboro;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blue-313-2{
+    width: 225px;
+    height: 210px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-313-3{
+    width: 225px;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blue-313-4{
+    width: 225px;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+    align-items: center;
+}
+#purple-3134-1{
+    color: red;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+}
+#purple-3134-2{
+    color: darkblue;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.green-31-4{
+    width:225px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+}
+.blue-314-1{
+    width: 225px;
+    height: 70px;
+    display:flex;
+    justify-content: center;
+    background-color: gainsboro;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blue-314-2{
+    width: 225px;
+    height: 210px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-314-3{
+    width: 225px;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blue-314-4{
+    width: 225px;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+    align-items: center;
+}
+#purple-3144-1{
+    color: red;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+}
+#purple-3144-2{
+    color: darkblue;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.yellow-4-1{
+    width:950px;
+    height: 130px;
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.green-41-1{
+    width: 800px;
+    height: 130px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.blue-411-1{
+    width: 130px;
+    height: 130px;
+    display: flex;
+}
+.blue-411-2{
+    width: 650px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content: space-between;
+}
+.purple-4112-1{
+    width: 650px;
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.purple-4112-2{
+    width: 650px;
+    height: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.green-41-2{
+    width: 130px;
+    height: 130px;
+    color:cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 90px;
+    background-color: cornflowerblue;
+    color: black;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 3px gainsboro;
+}
+button:hover{
+    background-color: dodgerblue;
+}
+button:active{
+    background-color: dodgerblue;
+    box-shadow: 0 1px gainsboro;
+    transform: translateY(2px);
+}
+img{
+    border-radius: 50%;
+}
+/* temp bold? */

@@ -1,0 +1,37 @@
+.nav{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    margin: 0px;
+}
+.nav-title{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.nav-links{
+    display:flex;
+    justify-content: flex-end;
+    font-family: Arial;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color:grey;
+}
+#profile{
+    color:whitesmoke;
+}
+.btn{
+    color:whitesmoke;
+    background-color: cornflowerblue;
+    border: 5px,10px,10px,5px;
+    border-color: black;
+    margin:10px;
+    font: arial;
+}

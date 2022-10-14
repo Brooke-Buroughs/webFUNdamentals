@@ -1,0 +1,177 @@
+.dragonfruit{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: white;
+}
+.apple{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 1000px;
+}
+.ryuk{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 1000px;
+    height: 120px;
+}
+.bored{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color:whitesmoke;
+    padding-left: 20px;
+    height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.god{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: whitesmoke;
+    color:black;
+    height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.deathnote{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    width: 1000px;
+}
+.light{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-left: 20px;
+    width: 250px;
+    margin-top: -210px;
+    height: 200px;
+}
+.misa{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    width:240px;
+    height: 200px;
+    margin:5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rem{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: black;
+    width: 240px;
+}
+.pigtails{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 240px;
+}
+.smile{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width:240px;
+}
+.L{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 700px;
+    justify-content: space-evenly;
+}
+.watari{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: black;
+    width:680px;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+.near{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width: 680px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+.mellow{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width:680px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+.guard{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: black;
+    width:680px;
+    height: 50px;
+}
+.care{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    padding-left: 40px;
+}
+#counta,#countb,#countc{
+    color: black;
+}
+.books{
+    margin-right: -300px;
+}

@@ -1,0 +1,19 @@
+.btn{
+    width: 200px;
+    height: 150px;
+}
+@media only screen and (max-width: 480px){
+    .btn{
+        background-color: salmon;
+    }
+}
+@media only screen and (min-width: 481px){
+    .btn{
+        background-color: palegoldenrod;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .btn{
+        background-color: cyan;
+    }
+}

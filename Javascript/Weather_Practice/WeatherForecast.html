@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" type="text/css" href="DojoWeatherStyle.css">
+</head>
+<body>
+    <div class="red">
+        <div class="orange-1">
+            <div class="yellow-1-1">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="yellow-1-2">
+                <div class="green-12-1">
+                    <h2 onclick="loadWeatherb('this')" >Burbank</h2>
+                </div>
+                <div class="green-12-2">
+                    <h2 onclick="loadWeatherc('this')">Chicago</h2>
+                </div>
+                <div class="green-12-3">
+                    <h2 onclick="loadWeatherd('this')">Dallas</h2>
+                </div>
+            </div>
+        </div>
+        <div class="orange-2">
+            <div class="yellow-2-1">
+                <div class="green-21-1">
+                    <h1>SanJose</h1>
+                </div>
+                <div class="green-21-2">
+                    <div class="blue-212-1">
+                        <p>show temperature in</p>
+                    </div>
+                    <div class="blue-212-2">
+                        <select name="tempMeasure" onchange="tempChange(this)">
+                            <option value="c">&#8451</option>
+                            <option value="f">&#8457</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="orange-3">
+            <div class="yellow-3-1">
+                <div class="green-31-1">
+                    <div class="blue-311-1">
+                        <h1>Today</h1>
+                    </div>
+                    <div class="blue-311-2">
+                        <img src="C:\Users\bradl\OneDrive\Desktop\VS_Code_Dojo\Javascript\Weather_Practice\some_rain.png" alt="rain-clouds" width="200px" height="200px">
+                    </div>
+                    <div class="blue-311-3">
+                        <p>some rain</p>
+                    </div>
+                    <div class="blue-311-4">
+                        <div id="purple-3114-1">
+                            <p class="temp">24</p>
+                            <p>&#176</p>
+                        </div>
+                        <div id="purple-3114-2">
+                            <p class="temp">18</p>
+                            <p>&#176</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="green-31-2">
+                    <div class="blue-312-1">
+                        <h1>Tomorrow</h1>
+                    </div>
+                    <div class="blue-312-2">
+                        <img src="C:\Users\bradl\OneDrive\Desktop\VS_Code_Dojo\Javascript\Weather_Practice\some_sun.png" alt="sun" width="200px" height="200px">
+                    </div>
+                    <div class="blue-312-3">
+                        <p>some sun</p>
+                    </div>
+                    <div class="blue-312-4">
+                        <div id="purple-3124-1">
+                            <p class="temp">27</p>
+                            <p>&#176</p>
+                        </div>
+                        <div id="purple-3124-2" >
+                            <p class="temp">19</p>
+                            <p>&#176</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="green-31-3">
+                    <div class="blue-313-1">
+                        <h1>Friday</h1>
+                    </div>
+                    <div class="blue-313-2">
+                        <img src="C:\Users\bradl\OneDrive\Desktop\VS_Code_Dojo\Javascript\Weather_Practice\some_clouds.png" alt="cloudy" width="200px" height="200px">
+                    </div>
+                    <div class="blue-313-3">
+                        <p>some clouds</p>
+                    </div>
+                    <div class="blue-313-4">
+                        <div id="purple-3134-1">
+                            <p class="temp">21</p>
+                            <p>&#176</p>
+                        </div>
+                        <div id="purple-3134-2">
+                            <p class="temp">16</p>
+                            <p>&#176</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="green-31-4">
+                    <div class="blue-314-1">
+                        <h1>Saturday</h1>
+                    </div>
+                    <div class="blue-314-2">
+                        <img src="C:\Users\bradl\OneDrive\Desktop\VS_Code_Dojo\Javascript\Weather_Practice\some_sun.png" alt="sun" width="200px" height="200px">
+                    </div>
+                    <div class="blue-314-3">
+                        <p>some sun</p>
+                    </div>
+                    <div class="blue-314-4">
+                        <div id="purple-3144-1">
+                            <p class="temp">26</p>
+                            <p>&#176</p>
+                        </div>
+                        <div id="purple-3144-2">
+                            <p class="temp">21</p>
+                            <p>&#176</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="orange-4">
+            <div class="yellow-4-1" id="removeMe">
+                <div class="green-41-1">
+                    <div class="blue-411-1">
+                        <img href="C:\Users\bradl\OneDrive\Desktop\VS_Code_Dojo\Javascript\Weather_Practice\cookie.png" width="150px" height="150px" alt="cookie">
+                    </div>
+                    <div class="blue-411-2">
+                        <div class="purple-4112-1">
+                            <h1>Stop! Cookie time</h1>
+                        </div>
+                        <div class="purple-4112-2">
+                            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and 
+                                to analyze our traffic. <a href="google.com">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="green-41-2">
+                    <button onclick="noMoreCookies()">I accept</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="DojoWeather.js"></script>
+</body>
+</html>

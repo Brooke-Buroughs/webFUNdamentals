@@ -1,0 +1,16 @@
+helpful lecture links:
+https://docs.google.com/document/d/1E2L5diA49AmVesKK7GruwPy4aRg0ZDqMQi9GIHzeRXg/edit
+
+css:
+justifyandalign.png
+https://css-tricks.com/almanac/properties/j/justify-content/
+color list:
+http://www.colors.commutercreative.com/grid/
+
+fizzbuzz:
+https://www.youtube.com/watch?v=QPZ0pIK_wsc
+https://towardsdatascience.com/how-to-solve-the-fizzbuzz-problem-in-r-c62e7e6c959a
+
+fibonnaci:
+https://www.w3resource.com/javascript-exercises/fundamental/javascript-fundamental-exercise-237.php
+https://medium.com/quick-code/fibonacci-sequence-javascript-interview-question-iterative-and-recursive-solutions-6a0346d24053

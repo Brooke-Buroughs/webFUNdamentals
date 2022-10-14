@@ -1,0 +1,48 @@
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /*display and flex-wrap,, review these!!*/
+}
+.top-nav {
+    width:950px;    
+    height: 150px;
+    background-color: green;
+    display: block;
+    margin-bottom: 20px;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+    margin-right: 20px;
+}
+.main {
+    height: 400px;
+    width: 725px;
+    background-color: red;
+    display:flex;/* review this*/
+    float: right;
+    flex-wrap: wrap; /*review this*/
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 10px;
+}
+#advertisement {
+    height: 120px;
+    width: 670px;
+    background-color: purple;
+    margin: 20px;
+}
+.row {
+    color:yellow;
+}
+
